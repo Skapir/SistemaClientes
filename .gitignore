@@ -1,0 +1,21 @@
+# Archivos y carpetas generadas por NetBeans
+nbbuild/
+build/
+dist/
+nbdist/
+.nb-gradle/
+test/
+*.class
+
+# Librerías y otros binarios
+*.jar
+*.log
+
+# Archivos de salida del sistema
+boletas/
+*.pdf
+*.xlsx
+
+# Configuración del sistema (opcional)
+*.DS_Store
+Thumbs.db
