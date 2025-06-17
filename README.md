@@ -27,7 +27,7 @@ SistemaClientes/
 ├── src/              # Código fuente Java
 ├── nbproject/        # Configuración NetBeans
 ├── lib/              # Librerías externas (.jar)
-├── boletas/          # PDFs generados
+├── SQL/              # Script de base de datos
 ├── .gitignore
 └── README.md
 ```
@@ -37,11 +37,11 @@ SistemaClientes/
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu_usuario/SistemaClientes.git
+git clone https://github.com/Skapir/SistemaClientes.git
 ```
 
 2. Importar en NetBeans como proyecto existente.
-3. Ejecutar el script `sistema_clientes.sql` en MySQL Workbench.
+3. Ejecutar el script `estructura_base.sql` en MySQL Workbench.
 4. Editar `ConexionBD.java`:
 
 ```java
@@ -50,20 +50,7 @@ private static final String USER = "root";
 private static final String PASSWORD = "tu_contraseña";
 ```
 
-## 👤 Usuario de prueba
+## 👤 Contacto
 
-```
-Usuario: admin
-Clave: admin
-```
-
-## 📸 Capturas (opcional)
-
-Puedes incluir aquí imágenes del login, formulario de ventas y PDF generado.
-
-## 🧑‍💻 Autor
-
-Desarrollado por **Sergio Pérez**  
-Contacto: tu_correo@ejemplo.com  
-LinkedIn: https://linkedin.com/in/sergioperez  
-GitHub: https://github.com/tu_usuario
+Desarrollado por **Skapir (Sergio P.)**  
+📧 skapir.dev@gmail.com
