@@ -8,7 +8,7 @@ test/
 *.class
 
 # Librerías y otros binarios
-*.jar
+# *.jar
 *.log
 
 # Archivos de salida del sistema
